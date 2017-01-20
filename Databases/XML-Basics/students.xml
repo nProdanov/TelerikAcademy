@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xslt"?>
+<students>
+  <student fac-number="1234567" xmlns:students="urn:students-programming-academy">
+    <name>Ivan</name>
+    <sex>Male</sex>
+    <birthdate>1990-09-13</birthdate>
+    <phone>0888888888</phone>
+    <email>ivan@students.bg</email>
+    <course>C Sharp</course>
+    <specialty>Programming</specialty>
+    <exams>
+      <exam name="C Sharp Fundamentals">
+        <tutor>Marto</tutor>
+        <score>200</score>
+      </exam>
+      <exam name="HTML Basics">
+        <tutor>Koceto</tutor>
+        <score>100</score>
+      </exam>
+      <exam name="CSS">
+        <tutor>Doncho</tutor>
+        <score>300</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2016-09-09</date>
+      <score>69</score>
+    </enrollment>
+  </student>
+  <student fac-number="1234587">
+    <name>Maria</name>
+    <sex>Female</sex>
+    <birthdate>1996-07-14</birthdate>
+    <phone>0888777555</phone>
+    <email>maria@students.bg</email>
+    <course>HQC</course>
+    <specialty>Programming</specialty>
+    <exams>
+      <exam name="C sharp OOP">
+        <tutor>Viktor</tutor>
+        <score>100</score>
+      </exam>
+      <exam name="JS fundamentals">
+        <tutor>Doncho</tutor>
+        <score>300</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2016-09-11</date>
+      <score>50</score>
+    </enrollment>
+  </student>
+  <student fac-number="1234958">
+    <name>Todor</name>
+    <sex>Male</sex>
+    <birthdate>1989-01-12</birthdate>
+    <phone>0888111222</phone>
+    <email>todor@stdents.bg</email>
+    <course>Design Patterns</course>
+    <specialty>Programming</specialty>
+    <exams>
+      <exam name="HQC">
+        <tutor>Steven</tutor>
+        <score>100</score>
+      </exam>
+      <exam name="JS Apps">
+        <tutor>Evlogi</tutor>
+        <score>80</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2016-03-09</date>
+      <score>80</score>
+    </enrollment>
+  </student>
+  <student fac-number="1234509">
+    <name>Nina</name>
+    <sex>Female</sex>
+    <birthdate>1999-04-05</birthdate>
+    <phone>0888333444</phone>
+    <email>nina@students.bg</email>
+    <course>CSS</course>
+    <specialty>Programming</specialty>
+    <exams>
+      <exam name="C Sharp fundamentals">
+        <tutor>Marto</tutor>
+        <score>300</score>
+      </exam>
+      <exam name="C Sharp advanced">
+        <tutor>Viktor</tutor>
+        <score>100</score>
+      </exam>
+      <exam name="HTML Basics">
+        <tutor>Evlogi</tutor>
+        <score>100</score>
+      </exam>
+    </exams>
+    <enrollment>
+      <date>2016-03-02</date>
+      <score>60</score>
+    </enrollment>
+  </student>
+</students>

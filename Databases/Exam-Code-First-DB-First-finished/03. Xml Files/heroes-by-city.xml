@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<superheroes>
+  <superhero>
+    <name id="1">Batman</name>
+    <secretIdentity>Bruce Wayne</secretIdentity>
+    <alignment>good</alignment>
+    <powers>
+      <power>Utility belt</power>
+      <power>Intelligence</power>
+      <power>Martial arts</power>
+    </powers>
+  </superhero>
+  <superhero>
+    <name id="2">Nightwing</name>
+    <secretIdentity>Dick Grayson</secretIdentity>
+    <alignment>good</alignment>
+    <powers>
+      <power>Acrobatics</power>
+      <power>Martial arts</power>
+    </powers>
+  </superhero>
+  <superhero>
+    <name id="5">The Joker</name>
+    <secretIdentity>Unknown</secretIdentity>
+    <alignment>evil</alignment>
+    <powers>
+      <power>Crazy</power>
+      <power>Much evil</power>
+    </powers>
+  </superhero>
+</superheroes>

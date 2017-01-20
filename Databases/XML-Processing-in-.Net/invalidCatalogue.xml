@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<catalogue>
+    <album>
+        <name>32</name>
+        <artist>Eminem</artist>
+        <year>hilqdq devet</year>
+        <producer>Dr. Dre</producer>
+        <price>10</price>
+        <songs>
+            <song id="1">
+                <title>My Name Is</title>
+                <duration>chetiri </duration>
+            </song>
+            <song id="2">
+                <title>97 Bonnie and Clyde</title>
+                <duration>5:16</duration>
+            </song>
+            <song id="3">
+                <title>Role Model</title>
+                <duration>3.25</duration>
+            </song>
+            <song id="4">
+                <title>Just Don't Give a Fuck</title>
+                <duration>4.02</duration>
+            </song>
+            <song id="5">
+                <title>I'm Shady</title>
+                <duration>3.31</duration>
+            </song>
+        </songs>
+    </album>
+</catalogue>

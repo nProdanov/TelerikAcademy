@@ -1,0 +1,13 @@
+XML is markup language which defines set of rules for threating data. XML is human readable. It's used for storing data with some info about the data.
+
+XML namespaces are used to make difference between same-like elements. Example: If I have <table> with some context and <table> with another context, namespaces can help
+to make difference between them. 
+<root
+xmlns:some="someURI"
+xmlns:another="anotherURI">
+    <some:table>
+    </some:table>
+
+    <another:table>
+    </another:table>
+</root>

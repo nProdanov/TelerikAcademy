@@ -1,0 +1,1 @@
+# Downloaded Rss-file and Generated HTML will be in this folder after executing projects.

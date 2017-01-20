@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<catalogue>
+    <album>
+        <name>The Slim Shady LP</name>
+        <artist>Eminem</artist>
+        <year>1999</year>
+        <producer>Dr. Dre</producer>
+        <price>10</price>
+        <songs>
+            <song id="1">
+                <title>My Name Is</title>
+                <duration>4.28</duration>
+            </song>
+            <song id="2">
+                <title>97 Bonnie and Clyde</title>
+                <duration>5.16</duration>
+            </song>
+            <song id="3">
+                <title>Role Model</title>
+                <duration>3.25</duration>
+            </song>
+            <song id="4">
+                <title>Just Don't Give a Fuck</title>
+                <duration>4.02</duration>
+            </song>
+            <song id="5">
+                <title>I'm Shady</title>
+                <duration>3.31</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Meteora</name>
+        <artist>Linkin Park</artist>
+        <year>2003</year>
+        <producer>Don Gilmore</producer>
+        <price>15</price>
+        <songs>
+            <song id="1">
+                <title>Somewhere I belong</title>
+                <duration>3.33</duration>
+            </song>
+            <song id="2">
+                <title>Lying from you</title>
+                <duration>2.55</duration>
+            </song>
+            <song id="3">
+                <title>Faint</title>
+                <duration>2.42</duration>
+            </song>
+            <song id="4">
+                <title>Breaking the habbit</title>
+                <duration>3.16</duration>
+            </song>
+            <song id="5">
+                <title>From the inside</title>
+                <duration>2.55</duration>
+            </song>
+            <song id="6">
+                <title>Numb</title>
+                <duration>3.07</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>IV</name>
+        <artist>Godsmack</artist>
+        <year>2006</year>
+        <producer>Sully Erna</producer>
+        <price>25</price>
+        <songs>
+            <song id="1">
+                <title>Livin in Sin</title>
+                <duration>4.39</duration>
+            </song>
+            <song id="2">
+                <title>The Enemy</title>
+                <duration>4.07</duration>
+            </song>
+            <song id="3">
+                <title>Shine down</title>
+                <duration>5.01</duration>
+            </song>
+            <song id="4">
+                <title>Bleeding me</title>
+                <duration>3.37</duration>
+            </song>
+            <song id="5">
+                <title>I stand alone</title>
+                <duration>3.47</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Thriller</name>
+        <artist>Michael Jackson</artist>
+        <year>1982</year>
+        <producer>Quincy Jones</producer>
+        <price>19</price>
+        <songs>
+            <song id="1">
+                <title>Beat it</title>
+                <duration>4.18</duration>
+            </song>
+            <song id="2">
+                <title>Billie Jean</title>
+                <duration>4.54</duration>
+            </song>
+            <song id="3">
+                <title>Human nature</title>
+                <duration>4.07</duration>
+            </song>
+            <song id="4">
+                <title>The lady in my life</title>
+                <duration>4.59</duration>
+            </song>
+            <song id="5">
+                <title>Thriller</title>
+                <duration>5.58</duration>
+            </song>
+            <song id="6">
+                <title>The girl is mine</title>
+                <duration>3.43</duration>
+            </song>
+        </songs>
+    </album>
+    <album>
+        <name>Dangerous</name>
+        <artist>Michael Jackson</artist>
+        <year>1991</year>
+        <producer>Teddy Riley</producer>
+        <price>35</price>
+        <songs>
+            <song id="1">
+                <title>Jam</title>
+                <duration>5.39</duration>
+            </song>
+            <song id="2">
+                <title>In the closet</title>
+                <duration>5.49</duration>
+            </song>
+            <song id="3">
+                <title>Can't let her get away</title>
+                <duration>4.59</duration>
+            </song>
+            <song id="4">
+                <title>Heal the world</title>
+                <duration>6.25</duration>
+            </song>
+            <song id="5">
+                <title>Dangerous</title>
+                <duration>7.00</duration>
+            </song>
+        </songs>
+    </album>
+</catalogue>
