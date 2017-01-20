@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <div class="list-all add">
+        <div>
+            <span>Name</span>
+            <input type="text" id="input-name">
+            <span>Age:</span>
+            <input type="number" id="input-age">
+        </div>
+        <button id="save-btn">Save</button>
+        <div id="message-box"></div>
+        <h1>People:</h1>
+        <ul id="people-list"></ul>
+    </div>
+    <div class="search-by-id">
+        <input type="number" id="input-id" placeholder="ID">
+        <button id="btn-search-id" >Get person by ID</button>
+        <div>
+            <h3 id="item-by-id"></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

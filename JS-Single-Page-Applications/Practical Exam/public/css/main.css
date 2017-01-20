@@ -1,0 +1,27 @@
+#page .hidden-when-not-logged-in {
+    display: none;
+}
+
+#page.logged-in .hidden-when-not-logged-in {
+    display: initial;
+}
+
+#page.logged-in .visible-when-not-logged-in {
+    display: none;
+}
+
+.material-info{
+    border-bottom: 1px solid black;
+}
+
+.table .row{
+    border-bottom: 1px solid black;
+}
+
+.img-container{
+    border: 1px solid black;
+}
+
+.material-info{
+    border-bottom: 1px solid black;
+}

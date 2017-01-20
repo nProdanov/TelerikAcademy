@@ -1,0 +1,48 @@
+<h1>Profile of: {{name}}</h1>
+<div class="container">
+    <div class="col-md-4">
+        <h3>Want to watch</h3>
+        <div id="want-to-watch">
+            {{#if materialsWant}}
+           
+            <ul>
+            {{#each materialsWant}}
+                <li><a href="#/materials/{{id}}">{{title}}</a></li>
+            {{/each}}
+            </ul>
+             {{else}}
+             <h4>No materials in this category</h4>
+            {{/if}}
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h3>Watched</h3>
+        <div id="watched">
+            {{#if materialsWatched}}
+            
+            <ul>
+            {{#each materialsWatched}}
+                <li><a href="#/materials/{{id}}">{{title}}</a></li>
+            {{/each}}
+            </ul>
+            {{else}}
+             <h4>No materials in this category</h4>            
+            {{/if}}
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h3>Watching</h3>
+        <div id="watching">
+            {{#if materialsWatching}}
+            
+            <ul>
+            {{#each materialsWatching}}
+                <li><a href="#/materials/{{id}}">{{title}}</a></li>
+            {{/each}}
+            </ul>
+            {{else}}
+             <h4>No materials in this category</h4>            
+            {{/if}}
+        </div>
+    </div>
+</div>

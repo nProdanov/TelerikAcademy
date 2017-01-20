@@ -1,0 +1,59 @@
+<div data-id="{{id}}" id="title">
+    <h1>{{{title}}}</h1>
+</div>
+<div class="container">
+    <div class="table">
+    <div class="row">
+        <div class="col-md-4 img-container">
+            <img src="{{img}}" class="img-responsive" alt="Image of {{{title}}}">
+        </div>
+        <div class="col-md-8">
+            <h4>Description:</h4>
+            <div class="description"> 
+            {{#if description}}
+                <p>{{description}}</p>
+            {{else}}
+                <p>No description</p>
+            {{/if}}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Author: <a href="#/profiles/{{user.username}}">{{user.username}}</a></h4>
+            <h4>Rating: {{rating}}</h4>
+            <h4>Date of creation: {{createdOn}}</h4>
+            <div class="hidden-when-not-logged-in user-status">
+                <h3>Status: {{status}}</h3>
+            </div>
+             <div class="status-changer">
+        {{#if want}}
+        <button class="btn btn-danger change-status" data-status="want-to-watch">Want to watch</button>
+        {{/if}}
+        {{#if watching}}
+        <button class="btn btn-danger change-status" data-status="watching">Currently watching</button>        
+        {{/if}}
+        {{#if watched}}
+        <button class="btn btn-danger change-status" data-status="watched">Already watched</button>                
+        {{/if}}
+        </div>
+        </div>
+        <div class="col-md-8">
+            <div class="comments">
+                <h3>Comments: </h3>
+                {{#each comments}}
+                <div class="comment">
+                    <h4><a href="#/profiles/{{user.username}}">{{user.username}}:</a></h4>
+                    <p>{{text}}</p>
+                </div>
+                {{/each}}
+                <div class="form-group hidden-when-not-logged-in user-status">
+                    <textarea id="tb-comment" class="form-control" placeholder="Write something about it..." rows="5"></textarea>
+                    <br>
+                    <button class="btn btn-info" id="send-comment">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

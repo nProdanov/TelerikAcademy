@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./bower_components/toastr/toastr.css" rel="stylesheet">
+    <link href="./bower_components/jquery-ui/themes/base/jquery-ui.css" rel="stylesheet">
+
+</head>
+
+<body id="page">
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="container-fluid">
+                        <div class="navbar-header col-md-3">
+                            <a class="navbar-brand" href="#">NAME OF THE PAGE</a>
+                        </div>
+                        <ul class="nav nav-tabs col-md-4">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li><a href="#">Something</a></li>
+                        </ul>
+                        <a href="#/login" class="btn btn-default navbar-btn col-md-offset-2 visible-when-not-logged-in">Sign in</a>
+                        <a href="#/register" class="btn btn-default navbar-btn visible-when-not-logged-in">Sign Up</a>
+                        <a href="#/logout" class="btn btn-default navbar-btn hidden-when-not-logged-in">Sign out</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div id="content" class="col-md-10 col-md-offset-1">
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Libs -->
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/toastr/toastr.js"></script>
+    <script src="./bower_components/crypto-js/crypto-js.js"></script>
+    <script src="./bower_components/handlebars/handlebars.js"></script>
+    <script src="./bower_components/navigo/lib/navigo.js"></script>
+    <script src="./bower_components/jquery-ui/jquery-ui.js"></script>
+
+    <!-- scripts -->
+    <script src="./scripts/helpers/templater.js"></script>
+    <script src="./scripts/helpers/notificator.js"></script>
+    <script src="./scripts/helpers/requester.js"></script>
+    <script src="./scripts/models/users-model.js"></script>
+    <script src="./scripts/helpers/validator.js"></script>
+    
+    <script src="./scripts/controllers/page-controller.js"></script>
+    <script src="./scripts/controllers/users-controller.js"></script>
+
+    <script src="./scripts/router.js"></script>
+
+
+    <!-- App -->
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
