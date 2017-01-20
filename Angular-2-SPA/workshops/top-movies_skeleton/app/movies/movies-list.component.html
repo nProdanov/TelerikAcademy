@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="form-group  col-md-offset-2 col-md-8">
+        <label for="search">Search</label>
+        <input name="search" class="form-control col-md-6" #e (input)="search(e.value)"/>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-3">
+            <label for="order">Order By: </label>
+            <select name="order" class="form-control" #p (change)="changeOrderBy(p.value)">
+            <option *ngFor="let order of orderBys" class="form-control" [value]="order">{{order}}</option>
+        </select>
+        </div>
+        <div class="col-md-3">
+            <label for="order">Order type: </label>
+            <select name="order" class="form-control" #t (change)="changeOrderType(t.value)">
+            <option *ngFor="let type of orderTypes" class="form-control" [value]="type">{{type}}</option>
+        </select>
+        </div>
+    </div>
+    <div class="row col-md-10">
+        <div class="col-md-3">Poster</div>
+        <div class="col-md-3">Title</div>
+        <div class="col-md-3">Year</div>
+        <div class="col-md-3">Rating</div>
+    </div>
+    <movie [movieData]="movie" *ngFor="let movie of (movies | search : searchPattern| sort: orderBy : orderType)" class="success row col-md-10"></movie>
+</div>
