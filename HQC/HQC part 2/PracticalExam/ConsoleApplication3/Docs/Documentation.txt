@@ -1,0 +1,15 @@
+﻿Bottleneck description: --------------------
+#1: In method WriteLine in Engine Class - There is useless forloop, join, split, try-catch and Thread.sleep
+
+
+Bug reports: --------------------
+Format: #Bug number - Class name - Bug description
+Example: #1 - PartnerBankingService - The variable "money" at line 36 overflows when you try to add more than 2.1 billion dollars.
+--------
+#1 - TeacherAddMarkCommand  -  The students in TeacherAddMarkCommand are getted by "teacherId" and teachers are getted by "studentsId".
+#2 - Student - ListMarks doesn not return correct message format
+#3 -
+#4 - 
+
+Middleman 
+#1 - Class BusinessLogicService 
