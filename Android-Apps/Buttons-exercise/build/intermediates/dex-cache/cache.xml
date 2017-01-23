@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_27540aa00f4d78a7be40249b5f7b6fba95270003/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_b1a0caac5508768de5b19a342d83707c34004037/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_0149b9b42e1b9375f430d7bbcc4b818ab8d58139/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_64ca45514a9661ec853cf6eb441d3bb082796f84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_cea1f089a9bfb5c8a0df605bb2a94c78964f56ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_96419afa8226b3f8e2361fe42beb9259cfc7eaee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="257f70331b8667fd3fb28634f5bca8cdbe0e533c">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ada56cf1e29a70b1024d25cff44dfcce618b7c00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_e1fc8628a175c9fec9eeb1218e5b057faea98a01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_1d801c1bdc17b275b645c772ae9139325b238339/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_a1a62bb247a15de6378a40d5a2d305fa9edd9a07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_e1f7440261dc63f977ee766cc13731e7e2e3891e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e5297987a9c29b928d59985814d06a666703d13">
+        <dex dex="/Users/nikolayprodanow/Documents/AndroidApplications/MyDemoApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8e1482491d0d9624b9b67077fa67b118583e1444/classes.dex" />
+    </item>
+
+</items>
