@@ -18,17 +18,39 @@ import java.util.List;
  */
 
 public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAdapter.ViewHolder> {
-
     private static List<Category> mDataset;
     private static IOnItemClicked mCallback;
 
-        public void setCallback(IOnItemClicked callback) {
+    public MyRecyclerViewAdapter(List<Category> data, IOnItemClicked callback) {
+        mDataset = data;
+        this.setCallback(callback);
+    }
+
+    @Override
+    public MyRecyclerViewAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
+                                                               int viewType) {
+        View v = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.recycler_view_row, parent, false);
+
+        ViewHolder vh = new ViewHolder(v);
+        return vh;
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        holder.mTextTitle.setText(mDataset.get(position).getmCategoryName());
+        holder.mTextDescription.setText(mDataset.get(position).getmSubCategoryName());
+        holder.mImage.setImageResource(mDataset.get(position).getmImageElementInMemory());
+        holder.mParent.setBackgroundColor(Color.parseColor(mDataset.get(position).getmItemColor()));
+    }
+
+    public void setCallback(IOnItemClicked callback) {
         mCallback = callback;
     }
 
-    public MyRecyclerViewAdapter(List<Category> data, IOnItemClicked callback) {
-        this.mDataset = data;
-        this.setCallback(callback);
+    @Override
+    public int getItemCount() {
+        return mDataset.size();
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
@@ -48,7 +70,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
             mParent.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (mCallback != null){
+                    if (mCallback != null) {
                         mCallback.onItemSelectedEvent(getAdapterPosition());
                     }
                 }
@@ -56,27 +78,4 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         }
     }
 
-    @Override
-    public MyRecyclerViewAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
-                                                               int viewType) {
-        View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.recycler_view_row, parent, false);
-
-        ViewHolder vh = new ViewHolder(v);
-        return vh;
-    }
-
-    @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-
-        holder.mTextTitle.setText(mDataset.get(position).getmCategoryName());
-        holder.mTextDescription.setText(mDataset.get(position).getmSubCategoryName());
-        holder.mImage.setImageResource(mDataset.get(position).getmImageElementInMemory());
-        holder.mParent.setBackgroundColor(Color.parseColor(mDataset.get(position).getmItemColor()));
-    }
-
-    @Override
-    public int getItemCount() {
-        return mDataset.size();
-    }
 }

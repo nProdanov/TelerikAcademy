@@ -20,11 +20,50 @@ import java.util.List;
  * Created by nikolayprodanow on 1/29/17.
  */
 public class SelectedCategoryAdapter extends RecyclerView.Adapter<SelectedCategoryAdapter.ViewHolder> {
+    public static Context mCtx;
+
     private static List<CategoryItems> mDataset;
     private static IOnItemClicked mCallback;
 
-    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public SelectedCategoryAdapter(Context ctx, List<CategoryItems> data, IOnItemClicked callback) {
+        mDataset = data;
+        mCtx = ctx;
+        mCallback = callback;
+    }
 
+    @Override
+    public SelectedCategoryAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
+                                                                 int viewType) {
+        View v = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.selected_item_view_row_layout, parent, false);
+
+        SelectedCategoryAdapter.ViewHolder vh = new SelectedCategoryAdapter.ViewHolder(v);
+
+        return vh;
+    }
+
+    @Override
+    public void onBindViewHolder(ViewHolder holder, int position) {
+        holder.mTextItemName.setText(mDataset.get(position).getmItemTitle());
+        holder.mTextItemSubName.setText(mDataset.get(position).getmItemDescription());
+        holder.mTextCategoryName.setText(mDataset.get(position).getmItemCategoryIdentifier());
+
+        NumberFormat format = NumberFormat.getCurrencyInstance();
+        double price = Double.parseDouble(mDataset.get(position).getmItemPrice());
+        holder.mTextPrice.setText(format.format(price));
+
+        Picasso
+                .with(mCtx)
+                .load(mDataset.get(position).getmImageURI())
+                .into(holder.mImageViewSelectedPicture);
+    }
+
+    @Override
+    public int getItemCount() {
+        return mDataset.size();
+    }
+
+    public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView mTextItemName, mTextItemSubName, mTextCategoryName, mTextPrice;
         public LinearLayout mLinearLayoutParent;
         public ImageView mImageViewSelectedPicture;
@@ -51,43 +90,4 @@ public class SelectedCategoryAdapter extends RecyclerView.Adapter<SelectedCatego
         }
     }
 
-    public static Context mCtx;
-
-    public SelectedCategoryAdapter(Context ctx, List<CategoryItems> data, IOnItemClicked callback) {
-        mDataset = data;
-        mCtx = ctx;
-        mCallback = callback;
-    }
-
-    // Create new views (invoked by the layout manager)
-    @Override
-    public SelectedCategoryAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
-                                                                 int viewType) {
-        // create a new view
-        View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.selected_item_view_row_layout, parent, false);
-
-        SelectedCategoryAdapter.ViewHolder vh = new SelectedCategoryAdapter.ViewHolder(v);
-
-        return vh;
-    }
-
-    @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.mTextItemName.setText(mDataset.get(position).getmItemTitle());
-        holder.mTextItemSubName.setText(mDataset.get(position).getmItemDescription());
-        holder.mTextCategoryName.setText(mDataset.get(position).getmItemCategoryIdentifier());
-        NumberFormat format = NumberFormat.getCurrencyInstance();
-        double price = Double.parseDouble(mDataset.get(position).getmItemPrice());
-        holder.mTextPrice.setText(format.format(price));
-        Picasso
-                .with(mCtx)
-                .load(mDataset.get(position).getmImageURI())
-                .into(holder.mImageViewSelectedPicture);
-    }
-
-    @Override
-    public int getItemCount() {
-        return mDataset.size();
-    }
 }
