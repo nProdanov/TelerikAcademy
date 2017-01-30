@@ -280,6 +280,13 @@ local.properties
 .idea/vcs.xml
 *.iml
 
+.gradle
+/local.properties
+/.idea/libraries
+/build
+/captures
+.externalNativeBuild
+
 # OS-specific files
 .DS_Store
 .DS_Store?
