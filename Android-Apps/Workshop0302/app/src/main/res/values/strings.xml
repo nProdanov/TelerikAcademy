@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Workshop0302</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_text_view">Search</string>
+    <string name="search_for_books">Search for books...</string>
+    <string name="about_app">About app</string>
+    <string name="app_info">Interesting or not this is the info for the app ...</string>
+    <string name="books_title">Books</string>
+    <string name="genres_title">Genres</string>
+</resources>

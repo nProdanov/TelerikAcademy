@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TitleText"
+        >
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="RowTextTitle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+
+    <style name="RowTextAuthor">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="DetailsTextAuthor">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="DetailsTextisbn">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
