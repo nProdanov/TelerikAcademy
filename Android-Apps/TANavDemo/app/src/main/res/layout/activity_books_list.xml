@@ -11,11 +11,10 @@
     android:orientation="vertical"
     tools:context="com.example.nikolayprodanow.tanavdemo.activities.BooksListActivity">
 
-    <android.support.v7.widget.Toolbar
+    <fragment
+        android:name="com.example.nikolayprodanow.tanavdemo.fragments.DrawerFragment"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tb_drawer" />
-
+        android:layout_height="wrap_content" />
     <fragment
         android:name="com.example.nikolayprodanow.tanavdemo.fragments.ListBookFragment"
         android:layout_width="match_parent"

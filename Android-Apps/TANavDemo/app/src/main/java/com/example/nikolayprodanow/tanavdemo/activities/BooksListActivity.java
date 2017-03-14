@@ -30,33 +30,8 @@ public class BooksListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_books_list);
 
-        this.setupDrawer();
     }
 
-    protected void setupDrawer() {
-        PrimaryDrawerItem item1 = new
-                PrimaryDrawerItem()
-                .withIdentifier(1)
-                .withName(R.string.drawer_item_books)
-                .withIcon(R.drawable.material_drawer_badge);
-        SecondaryDrawerItem item2 = new
-                SecondaryDrawerItem()
-                .withIdentifier(2)
-                .withName(R.string.drawer_item_settings)
-                .withIcon(R.drawable.material_drawer_circle_mask);
-
-
-        Toolbar toolbar = (Toolbar) this.findViewById(R.id.tb_drawer);
-
-        Drawer result = new DrawerBuilder()
-                .withActivity(this)
-                .withToolbar(toolbar)
-                .addDrawerItems(
-                        item1,
-                        item2
-                )
-                .build();
-    }
 
 
 }
