@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		780634591E798F9700F1EFCA /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780634581E798F9700F1EFCA /* FacialExpression.swift */; };
 		788C05111E783ACE009680F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05101E783ACE009680F4 /* AppDelegate.swift */; };
-		788C05131E783ACE009680F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05121E783ACE009680F4 /* ViewController.swift */; };
+		788C05131E783ACE009680F4 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05121E783ACE009680F4 /* FaceViewController.swift */; };
 		788C05161E783ACE009680F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C05141E783ACE009680F4 /* Main.storyboard */; };
 		788C05181E783ACE009680F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 788C05171E783ACE009680F4 /* Assets.xcassets */; };
 		788C051B1E783ACE009680F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788C05191E783ACE009680F4 /* LaunchScreen.storyboard */; };
 		788C05241E7868CC009680F4 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788C05231E7868CC009680F4 /* FaceView.swift */; };
+		78BA97881E7A84C60053C240 /* EmotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BA97871E7A84C60053C240 /* EmotionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		780634581E798F9700F1EFCA /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 		788C050D1E783ACE009680F4 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788C05101E783ACE009680F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		788C05121E783ACE009680F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		788C05121E783ACE009680F4 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		788C05151E783ACE009680F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		788C05171E783ACE009680F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		788C051A1E783ACE009680F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		788C051C1E783ACE009680F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		788C05231E7868CC009680F4 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		78BA97871E7A84C60053C240 /* EmotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		788C050F1E783ACE009680F4 /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				788C05121E783ACE009680F4 /* ViewController.swift */,
+				788C05121E783ACE009680F4 /* FaceViewController.swift */,
 				788C05231E7868CC009680F4 /* FaceView.swift */,
 				788C05141E783ACE009680F4 /* Main.storyboard */,
+				78BA97871E7A84C60053C240 /* EmotionsViewController.swift */,
 				780634581E798F9700F1EFCA /* FacialExpression.swift */,
 				788C05221E783B2F009680F4 /* Supporting Files */,
 			);
@@ -151,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788C05131E783ACE009680F4 /* ViewController.swift in Sources */,
+				788C05131E783ACE009680F4 /* FaceViewController.swift in Sources */,
 				780634591E798F9700F1EFCA /* FacialExpression.swift in Sources */,
+				78BA97881E7A84C60053C240 /* EmotionsViewController.swift in Sources */,
 				788C05111E783ACE009680F4 /* AppDelegate.swift in Sources */,
 				788C05241E7868CC009680F4 /* FaceView.swift in Sources */,
 			);
